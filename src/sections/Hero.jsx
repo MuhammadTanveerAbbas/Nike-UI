@@ -49,7 +49,7 @@ const Hero = () => {
             aria-label="Shop now for Nike arrivals"
           />
 
-          <ul className="flex flex-wrap gap-x-6 gap-y-4 justify-start items-center text-center text-slate-gray mt-3">
+          <ul className="flex flex-wrap gap-x-3 gap-y-4 justify-start items-center text-center text-slate-gray mt-3">
             {statistics.map(({ value, label }) => (
               <li key={label} className="min-w-[80px]">
                 <p className="text-[1.25rem] sm:text-[1rem] lg:text-[2.2rem] font-bold font-palanquin text-white">
