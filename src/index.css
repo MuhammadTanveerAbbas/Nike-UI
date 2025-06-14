@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reset and base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* Dark theme base */
+body,
+.max-container {
+  @apply bg-gray-900 text-gray-300;
+}
+
+/* COMPONENT STYLES */
+@layer components {
+
+  /* Container wrapper */
+  .max-container {
+    @apply max-w-[1280px] mx-auto px-4 sm:px-4 lg:px-6;
+  }
+
+  /* Inputs */
+  .input {
+    @apply w-full bg-gray-800 border border-gray-700 text-base text-gray-200 font-montserrat placeholder-gray-400 outline-none px-4 py-2 rounded-md;
+  }
+
+  /* Primary button */
+  .btn-primary {
+    @apply bg-coral-red text-white font-semibold font-montserrat px-5 py-2.5 rounded-md shadow-md transition-all duration-300 ease-in-out hover:bg-coral-red-hover hover:scale-105 active:scale-95;
+  }
+
+  /* Generic animated button modifier */
+  .button-animated {
+    @apply transition-transform duration-300 ease-in-out;
+  }
+
+  .button-animated:hover {
+    @apply scale-105 shadow-lg;
+  }
+
+  .button-animated:active {
+    @apply scale-95;
+  }
+}
+
+/* UTILITY STYLES */
+@layer utilities {
+
+  /* Section padding utility: reduced vertical padding for better density */
+  .section-padding {
+    @apply py-8 px-4;
+  }
+
+  .padding-x {
+    @apply sm:px-8 px-4;
+  }
+
+  .padding-y {
+    @apply sm:py-8 py-4;
+  }
+
+  .padding-l {
+    @apply sm:pl-8 pl-4;
+  }
+
+  .padding-r {
+    @apply sm:pr-8 pr-4;
+  }
+
+  .padding-t {
+    @apply sm:pt-8 pt-4;
+  }
+
+  .padding-b {
+    @apply sm:pb-8 pb-4;
+  }
+
+  /* Informational text with tighter line height */
+  .info-text {
+    @apply font-montserrat text-gray-400 text-lg leading-6;
+  }
+}
