@@ -2,13 +2,11 @@
   <img src="https://i.postimg.cc/yYWzQ7pz/Nike-UI.png" alt="Nike UI Project Banner" />
   <br clear="both" />
   
-  <div align="center">
-    <img src="https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white&style=for-the-badge" height="40" alt="Vite logo" />
-    <img width="12" />
-    <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=for-the-badge" height="40" alt="React logo" />
-    <img width="12" />
-    <img src="https://img.shields.io/badge/Tailwind CSS-06B6D4?logo=tailwindcss&logoColor=black&style=for-the-badge" height="40" alt="Tailwind CSS logo" />
-  </div>
+<div align="center">
+  <img src="https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white&style=for-the-badge" height="40" alt="Vite logo"/>
+  <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=for-the-badge" height="40" alt="React logo"/>
+  <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=black&style=for-the-badge" height="40" alt="Tailwind CSS logo"/>
+</div>
 
   <h1 align="center">Nike UI — React & Tailwind CSS Landing Page</h1>
   <p align="center">
@@ -20,7 +18,7 @@
 
 ## ✨ Project Overview
 
-This project delivers a high-performance Nike landing page developed with React and Tailwind CSS. It includes a visually compelling hero section, curated product showcases, a uniquely styled About Us area, promotional offers, testimonials, and newsletter integration. The implementation highlights advanced Tailwind CSS theming and emulates JavaScript-like interactions using utility-first styling alone. Mobile responsiveness is prioritized to meet modern UI/UX standards.
+This Nike landing page developed with React and Tailwind CSS. It includes a visually compelling hero section, curated product showcases, a uniquely styled About Us area, promotional offers. The implementation highlights advanced Tailwind CSS theming and emulates JavaScript-like interactions using utility-first styling alone. Mobile responsiveness is prioritized to meet modern UI/UX standards.
 
 ---
 
@@ -34,16 +32,6 @@ This project delivers a high-performance Nike landing page developed with React 
 
 - **Vite** — Next-gen frontend build tool offering fast module imports, optimized bundling, and quick development server startup, enhancing developer productivity.  
   [Documentation](https://vitejs.dev/guide/)
-
----
-
-## 📝 Key Features
-
-- Advanced use of Tailwind utility classes and custom theming for efficient styling
-- Dynamic theme support showcasing Tailwind's flexibility and adaptability
-- CSS-driven interactive effects minimizing JavaScript dependency
-- Striking hero section emphasizing brand and product highlights
-- Organized product showcases optimized for conversions
 
 ---
 
@@ -87,9 +75,3 @@ yarn dev
 ## 📜 License
 
 This project is licensed under the MIT License.
-
-```
-MIT License
-
-Copyright (c) 2025 Muhammad Tanveer Abbas
-```
