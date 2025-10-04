@@ -4,17 +4,15 @@
 
 <br/>
 
+<h1 align="center">Nike UI 🛒 Website ✨</h1>
+
+
+
 <div align="center">
   <img src="https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white&style=for-the-badge" height="40" alt="Vite logo" style="margin-right:12px;" />
   <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=for-the-badge" height="40" alt="React logo" style="margin-right:12px;" />
   <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=black&style=for-the-badge" height="40" alt="Tailwind CSS logo" />
 </div>
-
-<h1 align="center">Nike UI 🛒 Website ✨</h1>
-
-<p align="center">
-A modern, fully responsive Nike landing page built with React and Tailwind CSS, designed for scalability and maintainability.
-</p>
 
 </div>
 
