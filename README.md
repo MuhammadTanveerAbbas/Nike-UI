@@ -67,7 +67,7 @@ A polished, modern landing page that:
 
 ### 🛠️ Technology Used
 
-React.js • Tailwind CSS • Vite • JavaScript • HTML • CSS
+React js • Tailwind CSS • Vite • JavaScript • HTML • CSS
 
 ---
 
